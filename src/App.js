@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import MyComponent from "./MyComponent";
+import IterationSample from "./IterationSample";
 
 class App extends Component {
   render() {
     return (
-      <MyComponent name={3}/>
+      <IterationSample/>
     );
   }
 }
